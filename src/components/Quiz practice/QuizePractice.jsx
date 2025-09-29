@@ -326,7 +326,7 @@ const QuizePractice = () => {
                     <div className="w-20 h-20 rounded-full border-4 border-green-400 flex items-center justify-center bg-gray-900">
                       <span className="text-2xl font-bold text-white">{questionTimer}</span>
                     </div>
-                    <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-green-300 animate-spin"></div>
+                    <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-green-50 animate-spin"></div>
                   </div>
                   <p className="text-blue-200 text-xs mt-1">Seconds left</p>
                 </div>
