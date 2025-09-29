@@ -12,8 +12,7 @@ const App = () => {
   return (
     <div className="">
       <ContextProvider>
-        <Navbar />
-        <Header />
+       
         <Card/>
         <Footer/>
       </ContextProvider>
