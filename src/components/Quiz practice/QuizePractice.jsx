@@ -223,7 +223,7 @@ const QuizePractice = () => {
       <div className={`${timers === 0 || getReady !== 0 ? "hidden" : "h-screen w-full flex justify-center items-center"}`}>
         <div className="text-center">
           <div className="relative">
-            <div className="w-40 h-40 rounded-full border-4 border-green-400 flex items-center justify-center mx-auto mb-6 animate-pulse">
+            <div className="w-40 h-40  rounded-full border-4 border-green-400 flex items-center justify-center mx-auto mb-6 animate-pulse">
               <h1 className="text-6xl font-bold text-white">{timers}</h1>
             </div>
             <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-green-300 animate-spin"></div>
@@ -322,11 +322,11 @@ const QuizePractice = () => {
                   <p className="text-blue-200">Test your knowledge!</p>
                 </div>
                 <div className="text-center">
-                  <div className="relative">
-                    <div className="w-20 h-20 rounded-full border-4 border-green-400 flex items-center justify-center bg-gray-900">
-                      <span className="text-2xl font-bold text-white">{questionTimer}</span>
+                  <div className="relative flex justify-center items-center">
+                    <div className="w-15 h-15 sm:w-20 sm:h-20 rounded-full border-4 border-green-400 flex items-center justify-center bg-gray-900 border-b-4 border-b-white animate-spin">
+                     
                     </div>
-                    <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-green-50 animate-spin"></div>
+                     <span className="text-2xl font-bold text-white absolute">{questionTimer}</span>
                   </div>
                   <p className="text-blue-200 text-xs mt-1">Seconds left</p>
                 </div>
